@@ -1,11 +1,19 @@
 <?php
 
+<html>
+    <body>
+        <h3 style="align-text: center; margin-top:45%">Página en mantenimiento, disculpen las molestias.</h3>
+    >/body>
+</html>
+
 /**
  * @package    Grav.Core
  *
  * @copyright  Copyright (C) 2015 - 2018 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
+
+/**
 
 namespace Grav;
 
@@ -56,3 +64,4 @@ try {
     $grav->fireEvent('onFatalException', new Event(array('exception' => $e)));
     throw $e;
 }
+ */
